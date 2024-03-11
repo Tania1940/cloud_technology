@@ -1,0 +1,184 @@
+body{
+    background-image: url(images/tajmahal_01.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* ----- Navigation Bar ----- */
+header{
+
+    position:static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 100px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+img.logo{
+    position: relative;
+    width: 15%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 10px rgba(255, 255, 255, 0.5);
+}
+
+nav.navbar a {
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+    font-size: 2em;
+    margin-left: 2em;
+}
+nav.navbar a:hover {
+    color: rgb(233, 223, 206);
+    background-color: black;
+    font-size: 2em;
+    margin-left: 2em;
+}
+
+/* ----- History ----- */
+
+div.history_title{     /*History Head*/
+    margin-top: 20%;
+    margin-left: 30%;
+    text-align: center;
+    font-size: 2em;
+    width: 40%;
+    background-color: rgba(128, 128, 128, 0.5);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 5px white;
+}
+
+section.history_body{  /* History Content*/
+   
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+div.infoleft, div.inforight{
+    width: 45%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 5px white;
+}
+
+div.infoleft:hover, div.inforight:hover{
+    transform: scale(1.05);
+    transition: 300ms;
+}
+
+img.history_img{
+    border-radius: 5px;
+}
+
+h2.history_title{
+    text-align: center;
+    font-family: cursive;
+}
+
+div.inforight{
+    background-color: rgba(196, 232, 243, 0.5);
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 1%;
+}
+
+p.history_content{
+    font-family:'Times New Roman', Times, serif;
+}
+div.more_info{
+    position: relative;
+    float: right;
+    
+    padding: 12px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, 0.5);
+}
+
+div.more_info{
+    color: white;
+}
+div.more_info:hover{
+    background-color: white;
+    color: black;
+}
+img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/* ----- More Info Card ----- */
+
+main.maincontainer{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+section.more_information{
+    width: 500px;
+    height: auto;
+    box-shadow: 0px 0px 10px 5px white;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 1em;
+}
+
+section.more_information:hover{
+    transform: scale(1.05);
+    transition: 300ms;
+}
+
+img.moreinfo_img{
+    width: 100%;
+    height: auto;
+}
+
+div.moreinfo_card{
+    padding: 1em;
+    height: auto;
+    background-color: rgba(128, 128, 128, 0.5);
+    font-size: 2em;
+    text-align: center;
+}
+div.cardlink{
+        position: relative;
+        padding: 12px;
+        border-radius: 15px;
+        box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, 0.5);
+}
+
+div.cardlink:hover{
+    background-color: white;
+    color: black;
+}
+section.more_information a{
+    text-decoration: none;
+    color: white;
+}
+/* ----- Display ----- */
+@media only screen and (max-width:1700px){
+    div.card{
+        width: 600px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width:1450px){
+    div.card{
+        width: 800px;
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width:600px){
+    div.card{
+        width: 100%;
+        height: 300px;
+    }
+}
