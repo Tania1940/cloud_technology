@@ -1,0 +1,241 @@
+h1.title{
+    border-bottom: dotted darkseagreen 3px;
+    text-align: center;
+    padding-bottom: 1em;
+    color: lightseagreen;
+}
+div.color1, div.color2, div.color3, div.color4, div.color5, div.color6{
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+div.color1{
+    background-color: rgb(242,80,34);
+}
+div.color2{
+    background-color: rgb(127,186,0);
+}
+div.color3{
+    background-color: rgb(0,164,239);
+}
+div.color4{
+    background-color: rgb(255,185,0);
+}
+section.rgbcolors, section.hexcolors{
+    display: inline-block;
+    width: 100%;
+}
+div.color5{
+    background-color: #667FFF;
+}
+div.color6{
+    background-color: #FF99CC;
+}
+section.container{
+    width: 80%;
+    position: relative;
+    margin: 2em auto;
+}
+img.img1{
+    width: 100%;
+}
+p.intro{
+    position: absolute;
+    top: 40%;
+    bottom: 35%;
+    right: 10%;
+    left: 10%;
+    background-color: rgba(211, 232, 52, 0.6);
+    font-size: 2em;
+    text-align: center;
+    padding: 0.5em;
+    box-shadow: 2px 2px 10px rgb(255, 255, 13);
+}
+a.link{
+    display: block;
+    font-size: 0.5em;
+    background-color: #7496cd;
+    width: 30%;
+    margin: auto;
+    padding: 0.2em;
+    margin-top: 1em;
+    border-radius: 12px;
+    text-decoration: none;
+}
+a.link:hover{
+    background-color: blue;
+    color: yellow;
+    box-shadow: 0px 0px 10px 2px white;
+}
+img.img2{
+    width: 100%;
+}
+h2.containertitle, p.par1, p.par2, p.par3{
+    position: absolute;
+}
+h2.containertitle{
+    text-align: center;
+    top: 40%;
+    left: 10%;
+    right: 10%;
+    font-size: 2.5em;
+}
+p.par1{
+    top: 5%;
+    left: 8%;
+    font-size: 1.2em;
+}
+p.par2{
+    bottom: 10%;
+    right: 2%;
+    font-size: 1.2em;
+}
+p.par3{
+    top: 30%;
+    right: 20%;
+    font-size: 1.2em;
+}
+img.sepia1, img.sepia2, img.sepia3{
+    width: 30%;
+    margin: 1%;
+}
+img.sepia1{
+    filter: sepia(10%);
+}
+img.sepia2{
+    filter: sepia(60%);
+}
+img.sepia3{
+    filter: sepia(100%);
+}
+img.blur1, img.blur2, img.blur3{
+    width: 30%;
+    margin: 1%;
+}
+img.blur1{
+    filter: blur(1px);
+}
+img.blur2{
+    filter: blur(5px);
+}
+img.blur3{
+    filter: blur(10px);
+}
+img.invert1, img.invert2, img.invert3{
+    width: 30%;
+    margin: 1%;
+}
+img.invert1{
+    filter: invert(10%);
+}
+img.invert2{
+    filter: invert(60%);
+}
+img.invert3{
+    filter: invert(100%);
+}
+/* ------ Class Exercise ------ */
+section.container2{
+    display: inline-block;
+    width: 100%;
+}
+div.imgleft, div.imgmiddle, div.imgright{
+    position: relative;
+    width: 30%;
+    margin: 1%;
+    float: left;
+}
+.containerimg1, .containerimg2, .containerimg3{
+    width: 100%;
+}
+
+p.intro1{
+    position: absolute;
+    top: 60%;
+    bottom: 28%;
+    right: 10%;
+    left: 10%;
+    background-color: rgba(252, 252, 252, 0.6);
+    font-size: 1em;
+    text-align: center;
+    padding: 1em;
+    box-shadow: 5px 5px 5px rgb(165, 110, 110);
+}
+p.pa1{
+    position: absolute;
+    top: 70%;
+    bottom: 0%;
+    right: 10%;
+    left: 10%;
+    background-color: rgba(252, 252, 252, 0.6);
+    font-size: 1em;
+    text-align: center;
+    padding: 2.5em;
+    box-shadow: 5px 5px 5px rgb(165, 110, 110);
+}
+.containerimg1{
+ filter: invert(30%);
+}
+.intro2{
+    position: absolute;
+    top: 32%;
+    bottom: 30%;
+    right: 5%;
+    left: 5%;
+    background-color: rgba(136, 238, 136, 0.6);
+    color: darkseagreen(120, 227, 120);
+    font-size: 2.5em;
+    text-align: center;
+    padding: 1em;
+    box-shadow: 2px 2px 10px rgb(255, 255, 13);
+}
+a.link{
+    display: block;
+    font-size: 0.8em;
+    background-color:  rgba(26, 64, 26, 0.6);
+    width: 50%;
+    margin: auto;
+    padding: 0.2em;
+    margin-top: 1em;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.containerimg2{
+    filter: blur(2px);
+}
+h2.containertitle, p.part1, p.part2, p.part3, p.part4{
+    position: absolute;
+    background-color: rgba(248, 250, 241, 0.6);
+
+    box-shadow: 5px 5px 5px rgb(252, 252, 252);
+}
+h2.containertitle{
+    text-align: center;
+    top: 40%;
+    left: 10%;
+    right: 10%;
+    font-size: 2.5em;
+}
+p.part1{
+    top: 5%;
+    left: 8%;
+    font-size: 1.2em;
+}
+p.part2{
+    bottom: 7%;
+    right: 10%;
+    font-size: 1.2em;
+}
+p.part3{
+    top: 25%;
+    right: 20%;
+    font-size: 1em;
+}
+p.part4{
+    top: 60%;
+    left: 30%;
+    font-size: 1em;
+}
+.containerimg3{
+    filter: sepia(50%);
+}
