@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar-brand:hover{
+    color: black;
+
+}
+.nav-link{
+    color: black;
+    margin-right: 10px;
+    margin-left: 10px;
+ text-transform: uppercase;
+ font-family:'Rubik', sans-serif;
+}
+.nav-link:hover{
+    color: black;
+
+}
+.search{
+    width: 100%;
+    height: 40px;
+    border: 2px solid rgb(172, 175, 178);
+    border-radius: 10px;
+    outline: none;
+    margin-right: -35px;
+
+}
+.btn{
+    width: 30%;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color:rgb(172, 175, 178);
+    font-weight: 700;
+    border-radius: 10px;
+}
+.main{
+    background:url(images/l.jpg) ;
+    background-size: cover;
+    overflow: auto;
+    background-position: 90% 10%;
+    height: 100vh;
+    width: 100%;
+}
+.main h1{
+    font-size: 3rem;
+    font-weight: 700;
+    background-color:rgba(172, 175, 178, 0.5);
+   
+}
+.main p{
+    font-size: 1rem;
+    font-weight: 700;
+    background-color:rgba(172, 175, 178, 0.5);
+   
+}
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgba(172, 175, 178, 0.5);
+    font-weight: 700;
+    border-radius: 60px;
+}
+img.card{
+    width: 4%;
+    font-size: 1rem;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+.card-img{
+    width: 100%;
+    display: block;
+    background-color: rgb(177, 159, 138);
+}
+
+
+
+
+
+
+
+.footer-dark {
+    padding: 50px 0;
+    color: #030304;
+    background-color:  rgb(172, 175, 178);;
+  }
+  
+  .footer-dark h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .footer-dark ul {
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  
+  .footer-dark ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.6;
+  }
+  
+  .footer-dark ul a:hover {
+    opacity: 0.8;
+  }
+  
+  
